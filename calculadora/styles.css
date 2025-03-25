@@ -1,0 +1,63 @@
+body {
+    background-image: url('imgs/fondo2.jpg');
+    font-family: 'Courier New', monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    color: #00ff00;
+}
+
+.calculator-1 {
+    width: 320px;
+    background: #111;
+    padding: 20px;
+    border-radius: 15px;
+    box-shadow: 0 0 20px rgba(0, 255, 0, 0.5);
+}
+
+.display-1 {
+    background: black;
+    color: #00ff00;
+    padding: 20px;
+    margin-bottom: 15px;
+    border-radius: 8px;
+    font-size: 24px;
+    text-align: right;
+    border: 2px solid #00ff00;
+}
+
+.buttons-1 {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+}
+
+.btn-1 {
+    padding: 15px;
+    border: none;
+    background: black;
+    color: #00ff00;
+    border-radius: 8px;
+    font-size: 18px;
+    cursor: pointer;
+    transition: all 0.3s;
+    box-shadow: 0 0 10px #167316;
+}
+
+.btn-1:hover {
+    background: #00ff00;
+    color: black;
+    box-shadow: 0 0 15px #00ff00;
+}
+
+.operator-1 {
+    background: #ff0000;
+    box-shadow: 0 0 10px #ff0000;
+}
+
+.operator-1:hover {
+    background: white;
+    color: #ff0000;
+}
